@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG CruzeiroNorte - Projetos Sociais</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Menu principal">
+            <h2>ONG CruzeiroNorte</h2>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#cadastro">Seja Voluntário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo-principal">
+        <section id="home">
+            <h1>Transformações Sociais e Arrecadação</h1>
+            <div class="box-grafico" style="max-width: 600px; margin: 20px auto;">
+                <canvas id="meuGrafico"></canvas>
+            </div>
+        </section>
+
+        <section id="cadastro" style="margin-top: 40px;">
+            <h2>Cadastro de Voluntários</h2>
+            <form id="form-voluntario">
+                <input type="text" id="input-nome" placeholder="Seu Nome" aria-required="true" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="lista-cadastrados" style="margin-top: 20px;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ONG CruzeiroNorte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
