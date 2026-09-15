@@ -1,4 +1,4 @@
-# ONG CruzeiroNorte - SPA
+# ONG CruzeiroNorte - SPA (TRABALHO FACULDADE)
 
 Projeto desenvolvido para avaliação acadêmica.
 
